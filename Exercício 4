@@ -1,0 +1,45 @@
+import kotlin.math.PI
+import kotlin.math.pow
+
+fun main() {
+    // Retângulo
+    val baseRet = 10.0
+    val alturaRet = 5.0
+    val areaRet = baseRet * alturaRet
+    println("Área do Retângulo = $areaRet")
+
+    // Quadrado
+    val ladoQuad = 6.0
+    val areaQuad = ladoQuad * ladoQuad
+    println("Área do Quadrado = $areaQuad")
+
+    // Losango
+    val diagMaior = 8.0
+    val diagMenor = 6.0
+    val areaLosango = (diagMaior * diagMenor) / 2
+    println("Área do Losango = $areaLosango")
+
+    // Trapézio
+    val baseMaior = 12.0
+    val baseMenor = 8.0
+    val alturaTrap = 5.0
+    val areaTrapezio = ((baseMaior + baseMenor) * alturaTrap) / 2
+    println("Área do Trapézio = $areaTrapezio")
+
+    // Paralelogramo
+    val basePar = 9.0
+    val alturaPar = 4.0
+    val areaPar = basePar * alturaPar
+    println("Área do Paralelogramo = $areaPar")
+
+    // Triângulo
+    val baseTri = 10.0
+    val alturaTri = 6.0
+    val areaTri = (baseTri * alturaTri) / 2
+    println("Área do Triângulo = $areaTri")
+
+    // Círculo
+    val raio = 7.0
+    val areaCirc = PI * raio.pow(2)
+    println("Área do Círculo = $areaCirc")
+}
